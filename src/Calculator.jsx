@@ -34,8 +34,8 @@ function Calculator() {
   };
 
   return (
-    <div className="flex justify-center h-screen">
-      <div className="mt-7 mb-7 w-[440px] flex flex-col justify-center items-center p-6 rounded-lg bg-gray-100 shadow shadow-zinc-300">
+    <div className="flex justify-center items-center h-screen">
+      <div className="mt-7 mb-7 w-[440px] h-fit flex flex-col justify-center items-center p-6 rounded-lg bg-gray-100 shadow shadow-zinc-300">
         <input
           type="text"
           value={click}
