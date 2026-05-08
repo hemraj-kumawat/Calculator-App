@@ -65,7 +65,7 @@ function Calculator() {
           <Btn content={"Clear"} work={clear} />
           <Btn content={"="} work={ru} />
 
-          <Btn content={0} work={() => btn("00")} />
+          <Btn content={"00"} work={() => btn("00")} />
           
         </div>
       </div>
